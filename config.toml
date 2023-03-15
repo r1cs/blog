@@ -6,7 +6,7 @@ canonifyurls = true
 title = "xD"
 author = "xD"
 theme = "pixyll"
-disqusShortname = "sitename"
+disqusShortname = "xD's blog"
 baseUrl                = "http://www.lxd.icu"
 
 

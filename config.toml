@@ -1,0 +1,33 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+canonifyurls = true
+title = "Pixyll"
+author = "admin"
+theme = "pixyll"
+disqusShortname = "sitename"
+baseUrl                = "http://localhost:1313"
+
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[Languages.ru]
+weight = 2
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  mainSections = ["post"]
+  search_engine = true
+  #google_analytics_id = ""
+  twitter_username = "username"
+  paginate = 5

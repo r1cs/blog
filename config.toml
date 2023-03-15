@@ -4,10 +4,10 @@ publishdir = "public"
 builddrafts = false
 canonifyurls = true
 title = "Pixyll"
-author = "admin"
+author = "xD"
 theme = "pixyll"
 disqusShortname = "sitename"
-baseUrl                = "http://localhost:1313"
+baseUrl                = "http://www.lxd.icu"
 
 
 [Languages]
@@ -29,5 +29,5 @@ hrefTargetBlank = true
   mainSections = ["post"]
   search_engine = true
   #google_analytics_id = ""
-  twitter_username = "username"
+  #twitter_username = "username"
   paginate = 5

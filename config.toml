@@ -13,7 +13,7 @@ disqusShortname = "xD's blog"
 [Languages.en]
 weight = 1
 
-[Languages.ru]
+[Languages.zh]
 weight = 2
 
 [blackfriday]

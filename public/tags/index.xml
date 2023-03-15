@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on xD</title>
-    <link>http://www.lxd.icu/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on xD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 21:53:17 +0800</lastBuildDate><atom:link href="http://www.lxd.icu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 21:53:17 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://www.lxd.icu/tags/about/</link>
+      <link>/tags/about/</link>
       <pubDate>Wed, 15 Mar 2023 21:53:17 +0800</pubDate>
       
-      <guid>http://www.lxd.icu/tags/about/</guid>
+      <guid>/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://www.lxd.icu/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Wed, 15 Mar 2023 21:53:17 +0800</pubDate>
       
-      <guid>http://www.lxd.icu/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     

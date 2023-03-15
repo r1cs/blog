@@ -7,7 +7,6 @@ title = "xD"
 author = "xD"
 theme = "pixyll"
 disqusShortname = "xD's blog"
-baseUrl                = "http://www.lxd.icu"
 
 
 [Languages]

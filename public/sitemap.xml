@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://www.lxd.icu/en/sitemap.xml</loc>
+    <loc>en/sitemap.xml</loc>
     
       <lastmod>2023-03-15T21:53:17+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://www.lxd.icu/ru/sitemap.xml</loc>
+    <loc>ru/sitemap.xml</loc>
     
   </sitemap>
   

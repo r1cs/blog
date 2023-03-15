@@ -9,13 +9,6 @@ theme = "pixyll"
 disqusShortname = "xD's blog"
 
 
-[Languages]
-[Languages.en]
-weight = 1
-
-[Languages.zh]
-weight = 2
-
 [blackfriday]
 angledQuotes = true
 hrefTargetBlank = true

@@ -20,6 +20,6 @@ hrefTargetBlank = true
 [params]
   mainSections = ["post"]
   search_engine = false
-  #google_analytics_id = ""
+  google_analytics_id = "G-DQ0VSSVGL6"
   #twitter_username = "username"
   paginate = 100

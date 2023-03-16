@@ -5,7 +5,7 @@ builddrafts = false
 canonifyurls = true
 title = "xD"
 author = "xD"
-theme = "pixyll"
+theme = "hugo-theme-pixyll"
 disqusShortname = "xD's blog"
 
 
@@ -22,4 +22,4 @@ hrefTargetBlank = true
   search_engine = false
   #google_analytics_id = ""
   #twitter_username = "username"
-  paginate = 1
+  paginate = 100

@@ -6,7 +6,16 @@
     <description>Recent content in Posts on xD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 21:53:17 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 12:25:31 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何定制个人博客</title>
+      <link>/post/how_to_create_blog/</link>
+      <pubDate>Fri, 17 Mar 2023 12:25:31 +0800</pubDate>
+      
+      <guid>/post/how_to_create_blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>我，博客，以及世界</title>
       <link>/post/about/</link>

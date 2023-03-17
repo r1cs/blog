@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>如何定制个人博客 - xD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="/post/how_to_create_blog/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/combined-min.css">
+  <link rel="stylesheet" type="text/css" href="/tipuesearch/tipuesearch.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="" class="site-title">xD</a>
+      <nav class="site-nav right">
+      <a href="/about/">About</a>
+<a href="/tags/">Tags</a>
+<a href="/contact/">Contact</a>
+<form class="navbar-search" action="/search/index.html"
+    onsubmit="return validateForm(this.elements['q'].value);">
+    <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input">
+
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">如何定制个人博客</h1>
+        <span class="post-meta">Mar 17, 2023 </span><br>
+        
+      </div>
+
+      <article class="post-content">
+      <h1 id="简介">简介</h1>
+<p>为了让读者更清晰地了解接下来各个步骤的意义，首先不得不介绍一个博客是如何完整呈现在用户面前的。</p>
+<p>当用户在浏览器访问<a href="lxd.icu">lxd.icu</a>博客的时，浏览器会对<code>lxd.icu</code>「域名」进行「域名解析」得到对应的「服务器IP地址」，然后通过访问服务器，下载获取博客的「静态文件」，最终呈现到用户面前。</p>
+<p>所以要定制一个博客首先要提供以上所涉及到的资源。即域名，服务器，博客相关的静态文件。</p>
+<p>而域名解析则在域名管理界面进行配置。</p>
+<p>创建博客需要以下几个步骤:</p>
+<ul>
+<li>购买注册域名(成本平均3刀一年)</li>
+<li>利用框架生成静态文件(免费)</li>
+<li>购买静态服务器(免费)</li>
+<li>(可选)为域名购买emil服务(20刀一年)</li>
+</ul>
+<h4 id="域名">域名</h4>
+<p>域名是网站的入口，购买域名可在「<a href="https://hpanel.hostinger.com/">hpanel.hostinger.com</a>」购买，其优点是价格十分便宜，注册可使用邮箱或github账号。</p>
+<p>注册成功后可在「域名」栏搜索自己想要的域名并选择购买。支付方式可选择「支付宝」，加密货币等。个人信息通过「<a href="https://www.meiguodizhi.com/sg-address">新加坡地址生成器</a>」生成填写即可。注意注册成功后会向邮箱发送一个确认邮件，记得前往确认。</p>
+<p>同样，注册成功后可在「域名」栏查看当前账户所拥有的域名，点击对应域名可进入域名的管理页面。后续的「域名解析设置」需要在此页面操作。</p>
+<h4 id="博客静态文件">博客静态文件</h4>
+<p>博客静态文件生成器选择<a href="https://gohugo.io/">hugo</a></p>
+<p><a href="https://gohugo.io/installation/">下载链接</a></p>
+<p>下载完成并将其配置到PATH目录后，新建一个名为<code>blog</code>的静态文件项目:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new site blog
+</span></span></code></pre></div><p>接下来要为静态页面选取主题，在<a href="https://themes.gohugo.io/">此链接获取</a>。</p>
+<p>选择好主题后，下载主题并将主题放入新建的<code>blog</code>目录下的<code>themes</code>目录中。</p>
+<p>&lt;&mdash;-todo</p>
+      </article>
+
+      
+
+      
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xD's blog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="/index.xml"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2017<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ0VSSVGL6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+gtag('config', 'G-DQ0VSSVGL6');
+</script>
+
+
+
+</body>
+</html>
+

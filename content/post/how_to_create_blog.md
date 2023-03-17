@@ -1,7 +1,7 @@
 ---
 title: "如何定制个人博客"
 date: 2023-03-17T12:25:31+08:00
-draft: true
+draft: false
 ---
 
 <!--more-->

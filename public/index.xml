@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>xD on xD </title>
+      <title>👁️ v 👁️‍ on 👁️ v 👁️‍ </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>/</link>
     <language>en-us</language>
@@ -19,6 +19,15 @@
     
     <item>
       <title>我，博客，以及世界</title>
+      <link>/about/</link>
+      <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我，博客，以及世界</title>
       <link>/post/about/</link>
       <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
       
@@ -27,12 +36,12 @@
     </item>
     
     <item>
-      <title>Search</title>
-      <link>/search/</link>
-      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      <title>联系方式</title>
+      <link>/contact/</link>
+      <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
       
-      <guid>/search/</guid>
-      <description> </description>
+      <guid>/contact/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -56,8 +56,8 @@
 
       <article class="post-content">
       <h1 id="简介">简介</h1>
-<p>为了让读者更清晰地了解接下来各个步骤的意义，首先不得不介绍一个博客是如何完整呈现在用户面前的。</p>
-<p>当用户在浏览器访问<a href="lxd.icu">lxd.icu</a>博客的时，浏览器会对<code>lxd.icu</code>「域名」进行「域名解析」得到对应的「服务器IP地址」，然后通过访问服务器，下载获取博客的「静态文件」，最终呈现到用户面前。</p>
+<p>为了让读者更清晰地了解接下来各个步骤的意义，首先不得不介绍博客是如何完整呈现在用户面前的。</p>
+<p>当用户通过浏览器访问<a href="lxd.icu">lxd.icu</a>博客的时，浏览器会对<code>lxd.icu</code>「域名」进行「域名解析」得到对应的「服务器IP地址」，然后通过访问服务器，下载获取博客的「静态文件」，最终呈现到用户面前。</p>
 <p>所以要定制一个博客首先要提供以上所涉及到的资源。即域名，服务器，博客相关的静态文件。</p>
 <p>而域名解析则在域名管理界面进行配置。</p>
 <p>创建博客需要以下几个步骤:</p>
@@ -72,13 +72,49 @@
 <p>注册成功后可在「域名」栏搜索自己想要的域名并选择购买。支付方式可选择「支付宝」，加密货币等。个人信息通过「<a href="https://www.meiguodizhi.com/sg-address">新加坡地址生成器</a>」生成填写即可。注意注册成功后会向邮箱发送一个确认邮件，记得前往确认。</p>
 <p>同样，注册成功后可在「域名」栏查看当前账户所拥有的域名，点击对应域名可进入域名的管理页面。后续的「域名解析设置」需要在此页面操作。</p>
 <h4 id="博客静态文件">博客静态文件</h4>
-<p>博客静态文件生成器选择<a href="https://gohugo.io/">hugo</a></p>
+<p>博客静态文件生成器选择<a href="https://gohugo.io/">hugo</a>，其是一款强大的静态网站生成器。</p>
 <p><a href="https://gohugo.io/installation/">下载链接</a></p>
 <p>下载完成并将其配置到PATH目录后，新建一个名为<code>blog</code>的静态文件项目:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new site blog
 </span></span></code></pre></div><p>接下来要为静态页面选取主题，在<a href="https://themes.gohugo.io/">此链接获取</a>。</p>
-<p>选择好主题后，下载主题并将主题放入新建的<code>blog</code>目录下的<code>themes</code>目录中。</p>
-<p>&lt;&mdash;-todo</p>
+<p>选择好主题后，下载主题并将主题放入新建的<code>blog</code>目录下的<code>themes</code>目录中，然后编辑blog目录下的<code>config.toml</code>配置文件，将<code>theme</code>变量配制成下载的主题目录名字。然后开始创作第一篇blog</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new posts/my_first_blog.md
+</span></span></code></pre></div><p>此命令会在<code>content/posts</code>目录下初始化<code>my_first_blog.md</code>文件。<strong>注意: 部分主题也许会读取<code>content/post</code>目录下的文件，注意读取对应主题的说明文档</strong>。</p>
+<p>接下来在文档中写一些日志:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;my_first_blog&#34;
+</span></span><span style="display:flex;"><span>date: 2023-03-17T12:25:31+08:00
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>这是摘要
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!--more--&gt;</span>
+</span></span><span style="display:flex;"><span>这是内容
+</span></span></code></pre></div><p>其中的配置信息为文档头</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;my_first_blog&#34; #设置文档的标题
+</span></span><span style="display:flex;"><span>date: 2023-03-17T12:25:31+08:00 ##设置文档创建日期，其为初始化的日期
+</span></span><span style="display:flex;"><span>draft: false #声明此文档是否为草稿，如是，则不会生成静态文件，只用于本地展示
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>其中的内容信息为</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>这是摘要
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!--more--&gt;</span> <span style="font-style:italic">**</span>#此字符分隔摘要，摘要是显示在主页中的关于此文章的一段简短描述**
+</span></span><span style="display:flex;"><span>这是内容
+</span></span></code></pre></div><p>接下来可以本地渲染前端</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>终端会显示访问前端的链接，通常情况下是<a href="http://localhost:1313">localhost:1313</a></p>
+<p>最后一步只需要生成静态文件即可</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>注意⚠️: 配置文件中的<code>base_url</code>参数给文件以绝对路径访问资源，可直接移除此变量。</p>
+<p>至于其他的参数设置，如title，自定义的静态文件(<code>content</code>目录下.md结尾的文件)中的参数，可查看具体文档调整对应的参数。</p>
+<p>静态文件生成后，只需要在<code>github</code>新建一个名为<code>blog</code>的仓库并将此blog文件内容推送到仓库即可。</p>
+<h4 id="服务器">服务器</h4>
+<p><a href="https://vercel.com/dashboard">vercel</a>是一款速部署静态网站的云平台。只需要将静态文件推送到<code>github</code>仓库，在vercel配置好服务器信息即可快速托管个人博客。</p>
+<p>登陆注册并绑定<code>github账号</code>后，选择对应的仓库，此处不需要构建配置。</p>
+<p>配置完成并部署成功后，<code>vercel</code>会为此网站分配ip和随机的域名。接下来需要保证购买的「域名」解析至<code>vercel</code>为网站分配的<code>ip</code>即可。</p>
+<p>在vercel选择刚才部署的项目并进入设置面板，选择域名栏。添加自己购买的域名后，在<a href="####%E5%9F%9F%E5%90%8D">域名</a>的「域名解析」配置出，增加其指定的解析规则即可。</p>
+<h3 id="总结">总结</h3>
+<p>此文章介绍了博客的访问过程以及创建一个博客所需要的几个步骤。其假设前提是读者是一个熟悉一些基本程序操作(如熟悉<a href="https://github.com/">Git</a>，熟悉「PATH」的机制，基本的阅读理解和动手能力)。如读者不了解特定步骤的特定原理，可自行查找。</p>
+<p>“路漫漫其修远兮，吾将上下而求索”&mdash;&mdash;&ndash;屈原《离骚》</p>
       </article>
 
       

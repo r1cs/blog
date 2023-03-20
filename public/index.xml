@@ -1,49 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>👁️ v 👁️‍ on 👁️ v 👁️‍ </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>👁️ v 👁️‍</title>
     <link>/</link>
-    <language>en-us</language>
-    
-    
-    <updated>Fri, 17 Mar 2023 12:25:31 CST</updated>
-    
+    <description>Recent content on 👁️ v 👁️‍</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-ch</language>
+    <lastBuildDate>Fri, 17 Mar 2023 12:25:31 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何定制个人博客</title>
       <link>/post/how_to_create_blog/</link>
-      <pubDate>Fri, 17 Mar 2023 12:25:31 CST</pubDate>
+      <pubDate>Fri, 17 Mar 2023 12:25:31 +0800</pubDate>
       
       <guid>/post/how_to_create_blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>我，博客，以及世界</title>
-      <link>/about/</link>
-      <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
-      
-      <guid>/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>我，博客，以及世界</title>
-      <link>/post/about/</link>
-      <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
-      
-      <guid>/post/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>联系方式</title>
       <link>/contact/</link>
-      <pubDate>Wed, 15 Mar 2023 21:53:17 CST</pubDate>
+      <pubDate>Wed, 15 Mar 2023 21:53:17 +0800</pubDate>
       
       <guid>/contact/</guid>
       <description></description>
     </item>
     
+    <item>
+      <title>我，博客，以及世界</title>
+      <link>/about/</link>
+      <pubDate>Wed, 15 Mar 2023 21:53:17 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
-

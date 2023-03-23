@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-pixyll"]
 	path = themes/hugo-theme-pixyll
 	url = https://github.com/r1cs/hugo-theme-pixyll
+[submodule "themes/hugo-theme-mini"]
+	path = themes/hugo-theme-mini
+	url = git@github.com:r1cs/hugo-theme-mini.git

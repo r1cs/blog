@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 👁️ v 👁️‍</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-ch</language>
-    <lastBuildDate>Fri, 17 Mar 2023 12:25:31 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 23:36:01 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不讨论了</title>
+      <link>/post/commemorate/</link>
+      <pubDate>Thu, 23 Mar 2023 23:36:01 +0800</pubDate>
+      
+      <guid>/post/commemorate/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>如何定制个人博客</title>
       <link>/post/how_to_create_blog/</link>
